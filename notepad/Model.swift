@@ -26,6 +26,7 @@ func addItem(nameItem: String, is Complited: Bool = false) {
     ToDoItems.append(["Name": nameItem, "isComplited": false])
 }
 
+
 func removeItem(at index: Int) {
     ToDoItems.remove(at: index)
 }
